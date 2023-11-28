@@ -1,4 +1,49 @@
-# Getting Started with Create React App
+# welly-test
+
+1. JavaScript: 字串反轉
+``` javascript
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+
+console.log(reverseString("Hello")); // 預期輸出: "olleH”
+```
+<br/>
+
+2. JavaScript: 陣列過濾
+``` javascript
+function filterNumbersGreaterThanFive(numbers) {
+  return numbers.filter(i => i > 5);
+}
+
+const numbers = [2, 8, 4, 10, 1, 7];
+console.log(filterNumbersGreaterThanFive(numbers)); // 預期輸出: [8, 10, 7]
+```
+<br/>
+
+3. JavaScript: 重構
+``` javascript
+function formatName(firstName, lastName) {
+  return `${firstName} ${lastName}`; // Ans: 利用 ES6 的 Template literals（樣板字面值），讓程式碼變得更簡潔及直覺
+}
+
+console.log(formatName("Apple", "Pay"));
+```
+<br/>
+
+4. React: 條件渲染
+``` jsx
+function ConditionalRendering({ isLoggedIn }) {
+  return isLoggedIn ? <LoggedInContent /> : <NotLoggedInContent />;
+}
+```
+<br/>
+
+5. React: 組件  
+程式連結: https://github.com/yoshiyyc/welly-test/blob/main/src/App.js 
+
+
+#
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
