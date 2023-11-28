@@ -40,7 +40,8 @@ function ConditionalRendering({ isLoggedIn }) {
 <br/>
 
 5. React: 組件  
-程式連結: https://github.com/yoshiyyc/welly-test/blob/main/src/App.js 
+程式連結: https://github.com/yoshiyyc/welly-test/blob/main/src/App.js  
+Demo: https://yoshiyyc.github.io/welly-test/
 
 
 #
